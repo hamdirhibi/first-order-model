@@ -1,4 +1,4 @@
-# First Order Motion Model for Image Animation
+# Deep fake project 
 
 This repository contains the source code for the paper [First Order Motion Model for Image Animation](https://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation) by Aliaksandr Siarohin, [Stéphane Lathuilière](http://stelat.eu), [Sergey Tulyakov](http://stulyakov.com), [Elisa Ricci](http://elisaricci.eu/) and [Nicu Sebe](http://disi.unitn.it/~sebe/). 
 
@@ -27,7 +27,7 @@ There are several configuration (```config/dataset_name.yaml```) files one for e
 
 
 ### Pre-trained checkpoint
-Checkpoints can be found under following link: [google-drive](https://drive.google.com/open?id=1PyQJmkdCsAkOYwUyaj_l-l0as-iLDgeH) or [yandex-disk](https://yadi.sk/d/lEw8uRm140L_eQ).
+Checkpoints can be found under following link: [google-drive](https://drive.google.com/drive/folders/157-wifsuylAkO1E4hBGO_QXyn22mDXET?usp=sharing) or [yandex-disk](https://yadi.sk/d/lEw8uRm140L_eQ).
 
 ### Animation Demo
 To run a demo, download checkpoint and run the following command:
@@ -73,7 +73,7 @@ docker run -it --rm --gpus all \
 ```
 
 ### Colab Demo 
-We prepare a special demo for the google-colab, see: ```demo-colab.ipynb```.
+We prepare a special demo for the google-colab, see: ```deep_fake.ipynb```.
 
 ### Face-swap
 It is possible to modify the method to perform face-swap using supervised segmentation masks.
